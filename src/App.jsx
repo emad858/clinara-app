@@ -1,5 +1,5 @@
 import React from 'react';
-import { Activity, Users, Package, Tool, Star, ShieldCheck, ChevronRight, MessageSquare, HeartPulse } from 'lucide-react';
+import { Activity, Users, Package, Wrench, Star, ShieldCheck, ChevronRight, MessageSquare, HeartPulse } from 'lucide-react';
 
 const App = () => {
   return (
@@ -87,7 +87,7 @@ const App = () => {
             { 
               title: 'صيانة الأجهزة الطبية', 
               desc: 'أول سيستم بيوفر لك فريق صيانة متخصص وتنبيهات دورية قبل ما أجهزتك تعطل وتوقف حالك.', 
-              icon: <Tool className="text-rose-600" size={35}/>,
+              icon: <Wrench className="text-rose-600" size={35}/>,
               color: 'bg-rose-50'
             }
           ].map((f, i) => (
@@ -195,3 +195,4 @@ const CheckCircle = ({ size, className }) => (
 );
 
 export default App;
+
